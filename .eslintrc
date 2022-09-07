@@ -2,6 +2,11 @@
   "root": true,
   "extends": "vue",
   "env": {
-    "mocha": true
+    "mocha": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
   }
 }
